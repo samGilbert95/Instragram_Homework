@@ -1,0 +1,172 @@
+body{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+a{
+  color: #3C9BF8;
+  text-decoration: none;
+}
+p{
+  margin-top: 0;
+  margin-right: 0;
+  padding: 0;
+  border: 0;
+  color: gray;
+}
+input{
+  width: 80%;
+  margin: 5px 0 5px 0;
+  color:gray;
+}
+form input{
+  border: 1px solid #cacdcb;
+  color:#cacdcb;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  height:20px;
+  width: 200px;
+}
+button{
+  height: 30px;
+  width: 80%;
+  background-color: #1492f7;
+  color:white;
+  margin-bottom: 10px;
+}
+footer{
+  font-weight: bold;
+  font-size: 10px;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row;
+}
+footer p{
+  margin-top: 30px;
+  margin-left: 20px;
+  color: #001f8d;
+  font-size: 10px;
+}
+#hrLeft{
+  width: 300px;
+  margin-left: 25px;
+}
+#hrRight{
+  width: 300px;
+  margin-right:25px;
+}
+#signUp{
+  border: 1px solid #f3f3f3;
+}
+#signUp p{
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 12px;
+}
+#signUp input{
+  width: 80%;
+  border: 1px solid #f3f3f3;
+}
+#signUpBtn{
+  margin-top:5px;
+}
+#fb{
+  margin-top: 5px;
+  margin-right: 5px;
+}
+#logo{
+  height:50%;
+  width:50%;
+}
+#prevLogin p{
+  color: black;
+}
+#test img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+#test span{
+  margin-top: 15px;
+}
+#storeLogos{
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  margin: 0;
+  border: 0px;
+}
+#prevLogin{
+  border: 1px solid #f3f3f3;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 12px;
+}
+#remind{
+  border: none;
+  margin: 20px 0;
+}
+#remind p{
+  color:black;
+  font-size: 12px;
+}
+#copyright {
+  margin-left: 100px;
+  color: lightgray;
+  font-size: 10px;
+}
+#ios{
+  height: 30%;
+  width: 30%;
+  margin-right: 5px;
+}
+#android{
+  height: 30%;
+  width: 30%;
+}
+.big{
+  font-weight: bold;
+}
+.container{
+  margin: 50px;
+  margin-left: 275px;
+  margin-bottom: 25px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.phoneContainer img{
+  margin-top: 30px;
+  height: 480px;
+}
+.container div{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.signContainer{
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.signContainer > div{
+  border: 1px solid lightgray;
+}
+.fa {
+  height: 10px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook{
+  background: white;
+  color: #1492f7;
+}
+.lineThing p{
+  padding-top: 10px;
+}
+.lineThing{
+  display: flex;
+}
