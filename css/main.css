@@ -82,8 +82,13 @@ footer p{
 #prevLogin p{
   color: black;
 }
-#test{
-  color: white;
+#test img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+#test span{
+  margin-top: 15px;
 }
 #storeLogos{
   display: flex;
